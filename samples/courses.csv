@@ -1,0 +1,4 @@
+course,provider,equipment,skills,seats,start,state
+C1,T-1,PLC-X,PLC|diagnostics,12,2026-11-01,open
+C2,T-2,PLC-X,PLC|calibration,8,2026-11-08,open
+C3,T-3,RB-2,robot-arm,10,2026-11-15,open

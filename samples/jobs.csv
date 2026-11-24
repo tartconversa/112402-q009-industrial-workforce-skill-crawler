@@ -1,0 +1,4 @@
+job,company,source,title,skills,location,updated,state
+J1,C-1,career,cnc-maintenance,PLC|diagnostics,East,2026-10-01,open
+J2,C-1,platform,controls-tech,PLC|calibration,East,2026-10-04,open
+J3,C-2,career,robot-tech,robot-arm|safety,West,2026-10-02,closed
