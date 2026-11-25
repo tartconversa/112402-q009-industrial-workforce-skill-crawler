@@ -1,0 +1,3 @@
+id,provider,course_name,equipment,skills,prerequisites,capacity,class_start,status,updated_at,url
+DEMO-C1,示范培训T1,数控参数与诊断,CNC-1|PLC-X,设备参数维护|diagnostics,基础电气,20,2026-12-05,open,2026-11-18,https://courses.example.test/demo/C1
+DEMO-C2,示范培训T2,机器人安全操作,RB-2,robot-arm|safety,安全入门,12,2026-12-12,open,2026-11-19,https://courses.example.test/demo/C2

@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "id": "DEMO-J1",
+      "company": "示范制造A",
+      "title": "数控调试技术员",
+      "location": "东园",
+      "skills": "数控调试|设备参数维护",
+      "state": "open",
+      "updated_at": "2026-11-20T09:00:00+08:00",
+      "url": "https://jobs.example.test/demo/J1"
+    }
+  ],
+  "next": "company_jobs_page2.json"
+}

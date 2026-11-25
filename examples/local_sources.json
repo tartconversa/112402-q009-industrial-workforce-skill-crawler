@@ -1,0 +1,35 @@
+{
+  "sources": [
+    {
+      "id": "demo-company-career",
+      "kind": "job",
+      "adapter": "json",
+      "url": "fixtures/company_jobs_page1.json",
+      "items_path": "items",
+      "pagination": {"next_url_path": "next"},
+      "policy": {
+        "respect_robots_txt": false,
+        "min_interval_seconds": 0,
+        "max_retries": 2,
+        "allowed_domains": ["jobs.example.test"]
+      }
+    },
+    {
+      "id": "demo-training-portal",
+      "kind": "course",
+      "adapter": "csv",
+      "url": "fixtures/training_courses.csv",
+      "field_map": {
+        "external_id": "id",
+        "title": "course_name",
+        "seats": "capacity",
+        "start": "class_start"
+      },
+      "policy": {
+        "respect_robots_txt": false,
+        "min_interval_seconds": 0,
+        "max_retries": 2
+      }
+    }
+  ]
+}

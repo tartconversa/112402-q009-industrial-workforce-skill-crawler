@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "DEMO-J1",
+      "company": "示范制造A",
+      "title": "数控调试技术员",
+      "location": "东园",
+      "skills": "数控调试|设备参数维护",
+      "state": "open",
+      "updated_at": "2026-11-20T09:00:00+08:00",
+      "url": "https://jobs.example.test/demo/J1"
+    },
+    {
+      "id": "DEMO-J2",
+      "company": "示范制造B",
+      "title": "工业机器人运维",
+      "location": "西园",
+      "skills": "robot-arm|safety",
+      "state": "open",
+      "updated_at": "2026-11-21T10:30:00+08:00",
+      "url": "https://jobs.example.test/demo/J2"
+    }
+  ]
+}

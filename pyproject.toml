@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parkbridge"
+version = "1.0.0"
+description = "制造岗位采集、技能治理、课程推荐与席位确认联动系统（Python 标准库 + SQLite）"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.scripts]
+parkbridge = "parkbridge.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["parkbridge*"]
+
+[tool.unittest]
+start = "tests"

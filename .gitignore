@@ -10,3 +10,8 @@ coverage/
 __pycache__/
 *.py[cod]
 .DS_Store
+data/
+exports/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
